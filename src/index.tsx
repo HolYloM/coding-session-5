@@ -6,7 +6,8 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App 
+     headerText='Coding Session 5' />
   </React.StrictMode>,
   document.getElementById('root')
 );
